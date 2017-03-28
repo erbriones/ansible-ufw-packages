@@ -1,0 +1,3 @@
+---
+# defaults file for ansible-ufw-package
+disable_alternative_firewall: yes

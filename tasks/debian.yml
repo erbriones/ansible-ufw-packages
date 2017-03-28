@@ -1,0 +1,5 @@
+- name: Install ufw application
+  apt: name=ufw state=present
+
+- name: Start ufw firewall service
+  service: name=ufw state=started enabled=yes
